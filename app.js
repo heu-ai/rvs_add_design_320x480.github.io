@@ -1,5 +1,5 @@
 // Imported Images in a Array by giving complete url
-var imges = ['img/1.png', 'img/2.png', 'img/3.png', 'img/4.png', 'img/5.png', 'img/6.png'];
+var imges = ['img/1.png', 'img/2.png', 'img/3.png', 'img/4.png', 'img/5.png', 'img/6.png', 'img/7.png', 'img/8.png'];
 
 
 // Opening the 1st Image
@@ -176,6 +176,51 @@ function page4func(op){
     document.getElementById("rvtype2").style = "display:none !important";
     document.getElementById("rvtype3").style = "display:none !important";
     document.getElementById("rvtype4").style = "display:none !important";
+    document.getElementById("time1").style = "display:none !important";
+    document.getElementById("time2").style = "display:none !important";
+    document.getElementById("time3").style = "display:none !important";
+    document.getElementById("hold").style = "display:none !important";
+    document.getElementById("confirm").style = "display:none !important";
+
+    var price1 = document.getElementById("price1");
+    price1.style = "position: absolute;top: 175px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
+    price1.onclick = function(){op.src = imges[0]; page1func(op);};
+
+    var price2 = document.getElementById("price2");
+    price2.style = "position: absolute;top: 220px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
+    price2.onclick = function(){op.src = imges[5]; page1func(op);};
+
+    var price3 = document.getElementById("price3");
+    price3.style = "position: absolute;top: 265px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
+    price3.onclick = function(){op.src = imges[6]; page1func(op);};
+
+    var price4 = document.getElementById("price4");
+    price4.style = "position: absolute;top: 310px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
+    price4.onclick = function(){op.src = imges[7]; page1func(op);};
+
+    var close = document.getElementById("close");
+    close.style = "position: absolute;top: 89px;left: 303px;height: 20px;background: transparent;width: 20px;border-radius: 50%;border: 1px solid transparent;";
+    close.onclick = function(){op.src=imges[0]; page1func(op);};
+
+};
+
+function page5func(op){
+    document.getElementById("menu1").style = "display:none !important";
+    document.getElementById("menu2").style = "display:none !important";
+    document.getElementById("menu3").style = "display:none !important";
+    document.getElementById("menu4").style = "display:none !important";
+    document.getElementById("btn1").style = "display:none !important";
+    document.getElementById("btn2").style = "display:none !important";
+    document.getElementById("btn3").style = "display:none !important";
+    document.getElementById("btn4").style = "display:none !important";
+    document.getElementById("btn5").style = "display:none !important";
+    document.getElementById("btn6").style = "display:none !important";
+    document.getElementById("btn7").style = "display:none !important";
+    document.getElementById("btn8").style = "display:none !important";
+    document.getElementById("rvtype1").style = "display:none !important";
+    document.getElementById("rvtype2").style = "display:none !important";
+    document.getElementById("rvtype3").style = "display:none !important";
+    document.getElementById("rvtype4").style = "display:none !important";
     document.getElementById("price1").style = "display:none !important";
     document.getElementById("price2").style = "display:none !important";
     document.getElementById("price3").style = "display:none !important";
@@ -203,50 +248,6 @@ function page4func(op){
     close.onclick = function(){op.src=imges[0]; page1func(op);};
 };
 
-function page5func(op){
-    document.getElementById("menu1").style = "display:none !important";
-    document.getElementById("menu2").style = "display:none !important";
-    document.getElementById("menu3").style = "display:none !important";
-    document.getElementById("menu4").style = "display:none !important";
-    document.getElementById("btn1").style = "display:none !important";
-    document.getElementById("btn2").style = "display:none !important";
-    document.getElementById("btn3").style = "display:none !important";
-    document.getElementById("btn4").style = "display:none !important";
-    document.getElementById("btn5").style = "display:none !important";
-    document.getElementById("btn6").style = "display:none !important";
-    document.getElementById("btn7").style = "display:none !important";
-    document.getElementById("btn8").style = "display:none !important";
-    document.getElementById("rvtype1").style = "display:none !important";
-    document.getElementById("rvtype2").style = "display:none !important";
-    document.getElementById("rvtype3").style = "display:none !important";
-    document.getElementById("rvtype4").style = "display:none !important";
-    document.getElementById("time1").style = "display:none !important";
-    document.getElementById("time2").style = "display:none !important";
-    document.getElementById("time3").style = "display:none !important";
-    document.getElementById("hold").style = "display:none !important";
-    document.getElementById("confirm").style = "display:none !important";
-
-    var price1 = document.getElementById("price1");
-    price1.style = "position: absolute;top: 175px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
-    price1.onclick = function(){op.src = imges[0];};
-
-    var price2 = document.getElementById("price2");
-    price2.style = "position: absolute;top: 220px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
-    price2.onclick = function(){op.src = imges[0];};
-
-    var price3 = document.getElementById("price3");
-    price3.style = "position: absolute;top: 265px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
-    price3.onclick = function(){op.src = imges[0];};
-
-    var price4 = document.getElementById("price4");
-    price4.style = "position: absolute;top: 310px;left: 28px;height: 45px;background: transparent;width: 280px;border-radius: 2%;border: 1px solid transparent;";
-    price4.onclick = function(){op.src = imges[0];};
-
-    var close = document.getElementById("close");
-    close.style = "position: absolute;top: 89px;left: 303px;height: 20px;background: transparent;width: 20px;border-radius: 50%;border: 1px solid transparent;";
-    close.onclick = function(){op.src=imges[0]; page1func(op);};
-
-};
 
 
 // Clicking of Images
